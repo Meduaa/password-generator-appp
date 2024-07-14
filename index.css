@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: url('Password-Security.jpg');
+    background-size: cover;
+    height: 50%;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px);
+  //height: 100%; */
+}
+
+.card{
+    border: 1px solid #1F2937;
+    margin: 70px auto 50px auto;
+    width: 500px;
+    height: 600px;
+    background: #1F2937;
+}
+
+#card-con{
+    /* border: 1px solid wheat; */
+    width: 350px;
+    margin-top: 100px;
+    padding-left: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+#header{
+    color: FFFFFF;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#ran {
+    color: #4ADF86;
+    margin-top: -4px;
+}
+
+#sub-header{
+    color: wheat;
+    margin-top: -12px;
+}
+
+#btn {
+    color: white;
+    background: #10B981;
+    padding: 5px 10px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    font-size: 15px;
+
+}
+
+#hr {
+    background: #2F3E53;
+    border: 1px solid #2F3E53;
+}
+
+#pasw{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#password{
+    color: #4ADF86;
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 10px 15px 10px 15px;
+    height: 25px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    background: #273549;
+    width: 150px;
+    
+
+}
+#password2 {
+    color: #4ADF86;
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 10px 15px 10px 15px;
+    height: 25px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    background: #273549;
+    width: 150px;
+}
